@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--background, #2B2B2B);
+}
+@font-face {
+    font-family: 'Work sans';
+    src: url(WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'space mono';
+    src: url(/SpaceMono-Regular.ttf);
+}
+.asdad{
+    background: var(--background, #2B2B2B);
+}
