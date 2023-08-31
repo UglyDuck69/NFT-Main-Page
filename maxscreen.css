@@ -354,9 +354,26 @@ border-radius: 20px;
     width: 100%;
     filter: blur(2.5px) !important;
 }
+.descr1{
+    display: flex;
+padding: 20px 20px 15px 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 25px;
+align-self: stretch;
+color: var(--white, #FFF);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+height: 89px;
+line-height: 140%; /* 22.4px */
+background: rgba(255, 255, 255, 0.10);
+border-radius: 0px 0px 20px 20px;
+}
 .descr{
     display: flex;
-padding: 20px 20px 25px 20px;
+    padding: 20px 20px;
 flex-direction: column;
 align-items: flex-start;
 gap: 25px;
