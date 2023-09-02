@@ -19,3 +19,6 @@ body{
 .asdad{
     background: var(--background, #2B2B2B);
 }
+a {
+    text-decoration: none !important;
+}

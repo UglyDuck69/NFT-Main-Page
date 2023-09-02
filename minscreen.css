@@ -333,6 +333,7 @@ border-radius: 0px 0px 20px 20px;
 .placeholder1{
     width: 230px;
     overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
 }
 .brush{
     position: absolute;
