@@ -5,13 +5,13 @@
     }
     body{
         margin: 0;
-        padding: 0 0 300px 0;
+        padding: 0;
         background: var(--background, #2B2B2B);
     }
     
     
     a {
-        text-decoration: none;
+        text-decoration: none !important;
         box-sizing: border-box;
     }
     .navlist{
@@ -47,6 +47,7 @@
     .nonukj{
         padding: 40px 100px !important;
         background: var(--background-secondary, #3B3B3B);
+        margin-top: 4px;
     }
     .p3{
         color: #CCC;
@@ -344,25 +345,63 @@ line-height: 140%; /* 22.4px */
 }
 .width{
     width: 1050px !important;
-    
-    display: flex !important;
     padding: 0 !important;
-    justify-content: center !important;
 }
 .background{
     background: var(--Background---Secondary, #3B3B3B);
 }
 .cardi{
     display: flex;
-height: 469px;
+    height: 469px !important;
+width: 330px !important;
+overflow: hidden !important;
 flex-direction: column;
 align-items: center;
-flex: 1 0 0;
 border-radius: 20px;
 background: var(--Background, #2B2B2B);
 padding: 0 !important;
 }
+.distantgalaxy{
+    color: var(--White, #FFF);
 
+    /* H5 - Work Sans */
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+.animakidtxt2{
+    color: var(--White, #FFF);
+
+/* Base (Body) - Space Mono */
+font-family: Space Mono;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.price{
+    color: #858584;
+
+/* Caption - Space Mono */
+font-family: Space Mono;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 110%; /* 13.2px */
+}
+.price2{
+    color: var(--White, #FFF);
+margin-top: 8px;
+/* Base (Body) - Space Mono */
+font-family: Space Mono;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
 
 
 
