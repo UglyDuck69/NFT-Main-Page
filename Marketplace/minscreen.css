@@ -1,0 +1,296 @@
+@media screen and (min-width: 900px) {
+.sdfs{
+padding: 20px 50px !important;
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
+.navlist{
+color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 22.4px */
+margin-top: 10px;
+text-decoration: none;
+}
+
+.signbtn {
+display: flex;
+height: 60px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+width: 120%;
+border-radius: 20px;
+background: var(--call-to-action, #A259FF);
+color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 22.4px */
+border: none;
+}
+
+/* footer */
+.nonukj{
+    padding: 40px 100px !important;
+    background: var(--background-secondary, #3B3B3B);
+}
+.p3{
+    color: #CCC;
+margin-top: 33.6px;
+/* Base(Body) - Work Sans */
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.p4{
+    color: #CCC;
+
+/* Base(Body) - Work Sans */
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.h19{
+    color: #FFF;
+
+/* H5 - Space Mono */
+font-family: Space Mono;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 35.2px */
+text-transform: capitalize;
+}
+.p5{
+    color: #CCC;
+margin-top: 25px;
+/* Base(Body) - Work Sans */
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.p6{
+    color: #CCC;
+margin-top: 20px;
+/* Base(Body) - Work Sans */
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.form11{
+    display: flex;
+height: 60px;
+padding: 16px 0px 16px 20px;
+align-items: center;
+gap: 12px;
+align-self: stretch;
+border-radius: 20px;
+background: var(--text, #FFF);
+margin-top: 40px;
+justify-content: space-between;
+}
+.input2{
+    width: 330px;
+    color: var(--background, #2B2B2B);
+
+/* Base(Body) - Work Sans */
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+border: none;
+
+}
+.btn7{
+    display: flex;
+height: 60px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+width: 320px;
+color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 22.4px */
+border-radius: 20px;
+background: var(--call-to-action, #A259FF);
+border: none;
+}
+.gray{
+    width: fit-content !important;
+    border-radius: 20px;
+background: #3B3B3B;
+margin: 0px 190px;
+margin-top: 120px !important;
+padding: 10px 30px 10px 10px !important;
+}
+.hr{
+    color: #858584;
+    }
+    .copyright{
+        color: #CCC;
+    
+    /* Caption - Work Sans */
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+    }
+
+    /* content */
+.width{
+    width: 1050px !important;
+}
+.h2{
+    color: var(--White, #FFF);
+margin-top: 80px;
+/* H2 - Work Sans */
+font-family: Work Sans;
+font-size: 51px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; /* 56.1px */
+text-transform: capitalize;
+}
+.h3{
+    color: var(--White, #FFF);
+font-family: Work Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 35.2px */
+margin-top: 10px;
+}
+.form1{
+    display: flex;
+width: 1050px;
+height: 60px;
+margin-top: 30px;
+padding: 12px 20px;
+padding-right: 20px;
+align-items: center;
+justify-content: center;
+gap: 10px;
+background: transparent;
+border-radius: 20px;
+border: 1px solid var(--Background---Secondary, #3B3B3B);
+}
+.input1{
+    color: var(--caption-label-text, #858584);
+background: transparent;
+border: none;
+width: 960px;
+/* Base(Body) - Work Sans */
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.NFTs{
+    color: var(--White, #FFF);
+text-align: center;
+
+/* H5 - Work Sans */
+font-family: Work Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 30.8px */
+text-transform: capitalize;
+}
+.NFTs1{
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    
+    /* H5 - Work Sans */
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+/* .highliter{
+    border-bottom: 2px solid var(--caption-label-text, #858584);
+} */
+.pointer{
+    cursor: pointer;
+}
+.badge1{
+    height: 32px !important;
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3B3B3B);
+    display: flex;
+padding: 5px 10px;
+align-items: center;
+gap: 10px;
+color: #FFF;
+width: 40px;
+/* Base (Body) - Space Mono */
+font-family: Space Mono;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.badge{
+    height: 32px !important;
+    width: 50px;
+    display: flex;
+padding: 5px 10px;
+align-items: center;
+gap: 10px;
+border-radius: 20px;
+background: #858584;
+color: #FFF;
+font-family: Space Mono;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
+.highliter{
+    border-bottom: 2px solid var(--caption-label-text, #858584);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
