@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 @media screen and (max-width: 767px) {
@@ -56,6 +55,7 @@ font-weight: 600;
 line-height: 120%; /* 45.6px */
 text-transform: capitalize;
 }
+
 .btn12{
     display: flex;
 height: 100px !important;
@@ -656,7 +656,6 @@ line-height: 140%; /* 22.4px */
     border: none;
     display: flex;
 height: 46px;
-width: 230px;
 padding: 0px 50px;
 justify-content: center;
 align-items: center;
