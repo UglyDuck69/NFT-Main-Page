@@ -177,8 +177,8 @@
         <div class="w-100 d-flex justify-content-center">
             <div class="width">
                 <div class="row">
-                    <div class="col-6">
-                        <div class="d-flex justify-content-center gap-3 pt-3 pb-2 pointer highliter">
+                    <div class="col-6 clickable highliter" id="element1">
+                        <div class="d-flex justify-content-center gap-3 pt-3 pb-2 pointer">
                             <h1 class="NFTs">
                                 NFTs
                             </h1>
@@ -187,7 +187,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 ">
+                    <div class="col-6 clickable" id="element2">
                         <div class="d-flex justify-content-center gap-3 pt-3 pb-2 pointer">
                             <h1 class="NFTs1">
                                 Collections
@@ -1020,6 +1020,22 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+          // Get references to all clickable elements
+            const clickableElements = document.querySelectorAll(".clickable");
 
+            // Add a click event listener to each element
+        clickableElements.forEach(function (element) {
+            element.addEventListener("click", function () {
+                // Remove the 'bordered' class from all elements
+                clickableElements.forEach(function (otherElement) {
+                otherElement.classList.remove("highliter");
+            });
+
+            // Add the 'bordered' class to the clicked element
+            element.classList.add("highliter");
+        });
+    });
+    </script>
 </body>
 </html>
