@@ -3,7 +3,9 @@
 }
 
 @media screen and (max-width: 767px) {
-
+    .width{
+        width: 315px !important;
+    }
     .sdfs{
         padding: 20px 20px !important;
     }
