@@ -287,8 +287,6 @@ line-height: 140%; /* 22.4px */
 }
 .width{
     width: 315px !important;
-    display: flex !important;
-    justify-content: center !important;
     
 }
 .created{
