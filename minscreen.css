@@ -751,4 +751,8 @@ line-height: 110%; /* 13.2px */
 .row{
     padding: 0px !important;
 }
+.h10, .marjintopi{
+    margin-top: 160px !important;
+    margin-bottom: 60px !important;
+}
 }

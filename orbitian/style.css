@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--background, #2B2B2B);
+}
+@font-face {
+    font-family: 'Work sans';
+    src: url(WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'space mono';
+    src: url(/SpaceMono-Regular.ttf);
+}
+.asdad{
+    background: var(--background, #2B2B2B);
+}
+a {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.timediv{
+    display: flex;
+width:295px !important;
+padding: 30px !important;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+gap: 30px;
+border-radius: 20px;
+background: var(--Background---Secondary, #3B3B3B);
+}
+.timebtn{
+    display: flex;
+height: 60px;
+width: 100% !important;
+padding: 0px 50px 0 50px !important;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+background: var(--Call-to-Action, #A259FF);
+color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 22.4px */
+border: none;
+}
+.aends{
+    color: var(--Text, #FFF);
+
+/* Caption - Space Mono */
+font-family: Space Mono;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 110%; /* 13.2px */
+}
+.numb{
+    color: var(--Text, #FFF);
+
+/* H3 - Space Mono */
+font-family: Space Mono;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 45.6px */
+text-transform: capitalize;
+}
+.hours{
+    color: var(--Text, #FFF);
+
+/* Caption - Space Mono */
+font-family: Space Mono;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 110%; /* 13.2px */
+}
+.doubledot{
+    color: var(--Text, #FFF);
+
+/* H4 - Space Mono */
+font-family: Space Mono;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 39.2px */
+text-transform: capitalize;
+}
+.orbitianimg{
+    border-radius: 50%;
+}

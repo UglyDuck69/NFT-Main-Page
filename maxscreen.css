@@ -767,7 +767,10 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 }
-
+.h10, .marjintopi{
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
 
 
 
