@@ -76,6 +76,9 @@ line-height: 140%; /* 22.4px */
     font-weight: 400;
     line-height: 140%; /* 22.4px */
 }
+.width{
+    width: 315px !important;
+}
 .h19{
     color: #FFF;
 width: fit-content;

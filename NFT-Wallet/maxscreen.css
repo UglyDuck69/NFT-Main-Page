@@ -18,6 +18,9 @@ line-height: 140%; /* 22.4px */
 margin-top: 10px;
 text-decoration: none;
 }
+.width{
+    width: 315px !important;
+}
 .signbtn {
     display: flex;
     height: 60px;
